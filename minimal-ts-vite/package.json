@@ -1,0 +1,21 @@
+{
+  "name": "minimal-ts-vite",
+  "version": "0.0.0",
+  "private": "true",
+  "devDependencies": {
+    "typescript": "~4.6.3",
+    "vite": "^2.7.12"
+  },
+  "dependencies": {
+    "c2pa": "0.9.1",
+    "fast-glob": "~3.2.11"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "test": "echo \"examples/minimal-ts-vite\" no tests",
+    "lint": "echo \"examples/minimal-ts-vite\" no-op"
+  },
+  "readme": "# minimal-ts-vite\n\nThis is a minimal example showcasing the use of the CAI JavaScript SDK running in [Vite](https://vitejs.dev/).\n\nThis project was initially created using the following command:\n\n```\nyarn create vite minimal-ts-vite --template vanilla-ts\n```\n\n## Running\n\n```\nyarn install\nyarn dev\n```\n\nThen, visit http://localhost:3000/ in your browser.\n"
+}

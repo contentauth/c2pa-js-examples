@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#results {
+  border: solid #ccc 1px;
+  border-collapse: collapse;
+}
+
+#results td,
+th {
+  border: solid #ccc 1px;
+  padding: 10px;
+}
+
+#results th {
+  background-color: #eee;
+}
+
+#results img.thumbnail {
+  width: 150px;
+  height: auto;
+}

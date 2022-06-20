@@ -1,0 +1,24 @@
+{
+  "name": "minimal-ts-webpack",
+  "version": "0.0.0",
+  "private": "true",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.2.9",
+    "typescript": "~4.6.3",
+    "webpack": "~5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "c2pa": "0.9.1"
+  },
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack",
+    "test": "echo \"examples/minimal-ts-webpack\" no tests",
+    "lint": "echo \"examples/minimal-ts-webpack\" no-op"
+  },
+  "readme": "# minimal-ts-webpack\n\nThis is a minimal example showcasing the use of the CAI JavaScript SDK running in [Webpack](https://webpack.js.org/).\n\n## Running\n\n```\nyarn install\nyarn dev\n```\n\nThen, visit http://localhost:3000/ in your browser.\n"
+}

@@ -1,0 +1,84 @@
+.app {
+  text-align: center;
+}
+
+.claim-info {
+  border: solid 1px #ccc;
+  border-collapse: collapse;
+  margin: auto;
+  margin-bottom: 40px;
+
+  & td {
+    border: solid 1px #ccc;
+    padding: 5px;
+  }
+}
+
+.web-components {
+  width: 800px;
+  padding: 40px;
+  & .wrapper {
+    position: relative;
+    & > img {
+      width: 100%;
+      height: auto;
+    }
+    & cai-popover {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+  }
+}
+
+.theme-spectrum {
+  --cai-font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  --cai-font-size-md: 0.875rem;
+  --cai-font-size-sm: 0.8125rem;
+  --cai-popover-bg-color: #fff;
+
+  color: #2c2c2c;
+
+  & a {
+    color: #0d66d0;
+  }
+
+  & .sections {
+    border-top: solid 1px #d8d8d8;
+
+    & cai-panel-section {
+      border-bottom: solid 1px #d8d8d8;
+      padding: 20px 0;
+    }
+
+    & .social-media {
+      & > div {
+        display: flex;
+        margin-bottom: 5px;
+        align-items: center;
+      }
+    }
+  }
+
+  &::part(manifest-summary-container) {
+  }
+
+  &::part(manifest-summary-view-more) {
+  }
+
+  &::part(section-heading-text) {
+  }
+
+  &::part(popover-box) {
+  }
+
+  &::part(tooltip-popover-box) {
+  }
+
+  &::part(tooltip-popover-content) {
+  }
+
+  &::part(section-produced-with-beta) {
+    color: #6e6e6e;
+  }
+}

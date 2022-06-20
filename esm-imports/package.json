@@ -1,0 +1,14 @@
+{
+  "name": "esm-imports",
+  "version": "0.0.0",
+  "private": "true",
+  "dependencies": {
+    "serve": "^13.0.2"
+  },
+  "scripts": {
+    "dev": "serve",
+    "test": "echo \"examples/esm-imports\" no tests",
+    "lint": "echo \"examples/esm-imports\" no-op",
+    "build": "echo \"examples/esm-imports\" no-op"
+  }
+}
