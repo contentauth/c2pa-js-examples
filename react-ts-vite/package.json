@@ -2,9 +2,9 @@
   "name": "react-ts-vite",
   "version": "0.0.0",
   "dependencies": {
-    "@contentauth/react": "0.1.7",
-    "c2pa": "0.10.3",
-    "c2pa-wc": "0.7.5",
+    "@contentauth/react": "0.2.1",
+    "c2pa": "0.11.1",
+    "c2pa-wc": "0.8.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
