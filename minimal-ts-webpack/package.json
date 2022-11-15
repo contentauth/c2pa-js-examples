@@ -12,7 +12,7 @@
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
-    "c2pa": "0.11.1"
+    "c2pa": "0.11.4"
   },
   "scripts": {
     "dev": "webpack serve",
