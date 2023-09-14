@@ -12,11 +12,10 @@
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
-    "c2pa": "0.11.4"
+    "c2pa": "0.17.2"
   },
   "scripts": {
     "dev": "webpack serve",
     "build": "webpack"
-  },
-  "readme": "# minimal-ts-webpack\n\nThis is a minimal example showcasing the use of the CAI JavaScript SDK running in [Webpack](https://webpack.js.org/).\n\n## Running\n\n```\nyarn install\nyarn dev\n```\n\nThen, visit http://localhost:3000/ in your browser.\n"
+  }
 }

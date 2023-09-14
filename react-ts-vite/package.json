@@ -2,11 +2,11 @@
   "name": "react-ts-vite",
   "version": "0.0.0",
   "dependencies": {
-    "@contentauth/react": "0.2.4",
-    "c2pa": "0.11.4",
-    "c2pa-wc": "0.8.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "@contentauth/react": "0.2.33",
+    "c2pa": "0.17.2",
+    "c2pa-wc": "0.11.8"
   },
   "devDependencies": {
     "@types/react": "^16.13.1",
@@ -22,6 +22,5 @@
     "build": "tsc && vite build",
     "build:release": "rushx build",
     "serve": "vite preview"
-  },
-  "readme": "# react-ts-vite\n\nThis is a minimal React example showcasing the use of the CAI JavaScript SDK running in [Vite](https://vitejs.dev/).\n\nThis project was initially created using the following command:\n\n```\nyarn create vite react-ts-vite --template react-ts\n```\n\n## Running\n\n```\nyarn install\nyarn dev\n```\n\nThen, visit http://localhost:3000/ in your browser.\n"
+  }
 }

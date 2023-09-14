@@ -15,13 +15,12 @@
     "typescript": "~4.6.3"
   },
   "dependencies": {
-    "c2pa": "0.11.4"
+    "c2pa": "0.17.2"
   },
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "dev": "npm-run-all --parallel start watch",
     "start": "serve -l 3000 public"
-  },
-  "readme": "# minimal-ts-rollup\n\nThis repo contains a bare-bones example of how to create an application using Rollup, including importing a module from `node_modules` and converting it from CommonJS.\n\n_See also https://github.com/rollup/rollup-starter-lib_\n\n## Getting started\n\nClone this repository and install its dependencies:\n\n```bash\ngit clone https://github.com/rollup/rollup-starter-app\ncd rollup-starter-app\nnpm install\n\n# or\nnpx degit \"rollup/rollup-starter-app\" my-app\ncd my-app\nnpm install\n```\n\nThe `public/index.html` file contains a `<script src='bundle.js'>` tag, which means we need to create `public/bundle.js`. The `rollup.config.js` file tells Rollup how to create this bundle, starting with `src/main.ts` and including all its dependencies.\n\n`npm run build` builds the application to `public/bundle.js`, along with a sourcemap file for debugging.\n\n`npm start` launches a server, using [serve](https://github.com/zeit/serve). Navigate to [localhost:3000](http://localhost:3000).\n\n`npm run watch` will continually rebuild the application as your source files change.\n\n`npm run dev` will run `npm start` and `npm run watch` in parallel.\n\n## License\n\n[MIT](LICENSE).\n"
+  }
 }
