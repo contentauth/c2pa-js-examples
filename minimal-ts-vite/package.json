@@ -1,16 +1,15 @@
 {
   "name": "minimal-ts-vite",
   "version": "0.0.0",
-  "private": "true",
   "devDependencies": {
+    "date-fns": "^2.24.0",
     "typescript": "~4.6.3",
-    "vite": "^3.0.4",
-    "date-fns": "^2.24.0"
+    "vite": "^3.0.4"
   },
   "dependencies": {
-    "fast-glob": "~3.2.11",
     "c2pa": "0.17.2",
-    "c2pa-wc": "0.11.8"
+    "c2pa-wc": "0.11.13",
+    "fast-glob": "~3.2.11"
   },
   "scripts": {
     "dev": "vite",
