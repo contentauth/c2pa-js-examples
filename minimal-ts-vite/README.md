@@ -1,16 +1,12 @@
 # minimal-ts-vite
 
-This is a minimal example showcasing the use of the CAI JavaScript SDK running in [Vite](https://vitejs.dev/).
+This is a minimal example showcasing the use of the CAI JavaScript library, using the [Vite](https://vitejs.dev/) build and module bundler tool.
 
-This project was initially created using the following command:
 
-```
-yarn create vite minimal-ts-vite --template vanilla-ts
-```
-
-## Running
+## Installing dependencies and running
 
 ```
+cd c2pa-js-examples/minimal-ts-vite
 yarn install
 yarn dev
 ```

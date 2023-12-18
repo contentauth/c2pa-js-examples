@@ -1,25 +1,30 @@
 # minimal-ts-rollup
 
-This repo contains a bare-bones example of how to create an application using Rollup, including importing a module from `node_modules` and converting it from CommonJS.
-
-_See also https://github.com/rollup/rollup-starter-lib_
+This repo contains a bare-bones example of using Rollup to build a CAI demo.
 
 ## Getting started
 
-Clone this repository and install its dependencies:
+If you haven't already, install Rollup:
+
+```
+npm install --global rollup
+```
+
+Then after you clone this repository, install its dependencies:
 
 ```bash
-git clone https://github.com/rollup/rollup-starter-app
-cd rollup-starter-app
-npm install
-
-# or
-npx degit "rollup/rollup-starter-app" my-app
-cd my-app
+cd c2pa-js-examples/minimal-ts-rollup
 npm install
 ```
 
-The `public/index.html` file contains a `<script src='bundle.js'>` tag, which means we need to create `public/bundle.js`. The `rollup.config.js` file tells Rollup how to create this bundle, starting with `src/main.ts` and including all its dependencies.
+Then build and run it as follows:
+
+```
+npm run build
+npm start
+```
+
+The `index.html` file contains a `<script src='bundle.js'>` tag, which means we need to create `public/bundle.js`. The bundle includes `src/main.ts` and all of its dependencies.
 
 `npm run build` builds the application to `public/bundle.js`, along with a sourcemap file for debugging.
 

@@ -1,18 +1,14 @@
 # react-ts-vite
 
-This is a minimal React example showcasing the use of the CAI JavaScript SDK running in [Vite](https://vitejs.dev/).
+This is a minimal React example showcasing the use of the CAI JavaScript library, using the [Vite](https://vitejs.dev/) build and module bundler tool and the React UI framework.
 
-This project was initially created using the following command:
-
-```
-yarn create vite react-ts-vite --template react-ts
-```
-
-## Running
+## Installing dependencies and running
 
 ```
+cd c2pa-js-examples/react-ts-vite
 yarn install
 yarn dev
 ```
 
 Then, visit http://localhost:3000/ in your browser.
+
