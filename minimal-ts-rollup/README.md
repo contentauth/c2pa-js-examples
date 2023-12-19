@@ -2,7 +2,7 @@
 
 This repo contains a bare-bones example of using Rollup to build a CAI demo.
 
-## Getting started
+## Prerequisites
 
 If you haven't already, install Rollup:
 
@@ -10,9 +10,11 @@ If you haven't already, install Rollup:
 npm install --global rollup
 ```
 
-Then after you clone this repository, install its dependencies:
+## Build and run 
 
-```bash
+After you clone this repository, install its dependencies:
+
+```sh
 cd c2pa-js-examples/minimal-ts-rollup
 npm install
 ```
