@@ -15,7 +15,7 @@
     "typescript": "~4.6.3"
   },
   "dependencies": {
-    "c2pa": "0.17.6"
+    "c2pa": "0.20.0"
   },
   "scripts": {
     "build": "rollup -c",
