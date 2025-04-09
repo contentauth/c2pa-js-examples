@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "fast-glob": "~3.2.11",
-    "c2pa-wc": "0.12.5",
-    "c2pa": "0.20.0"
+    "c2pa-wc": "0.13.27",
+    "c2pa": "0.29.0"
   },
   "scripts": {
     "dev": "vite",

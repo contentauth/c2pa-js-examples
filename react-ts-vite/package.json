@@ -4,9 +4,9 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "@contentauth/react": "0.2.49",
-    "c2pa": "0.20.0",
-    "c2pa-wc": "0.12.5"
+    "c2pa-wc": "0.13.27",
+    "c2pa": "0.29.0",
+    "@contentauth/react": "0.2.77"
   },
   "devDependencies": {
     "@types/react": "^16.13.1",
